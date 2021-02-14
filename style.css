@@ -1,0 +1,27 @@
+.link {
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+   font-family: cursive;
+    font-size: 25px;
+    display: inline;
+}
+
+.link:hover {
+    background-color: orangered;
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+body{
+    text-align: center;
+}
